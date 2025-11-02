@@ -1,0 +1,84 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+
+
+.calculadora {
+    background: #222;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 280px;
+    }
+
+
+.tela {
+    background: #111;
+    color:deeppink;
+    font-size: 24px;
+    text-align:center;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+
+.botoes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+
+button {
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+.numero {
+    background: #333;
+    color: #fff;
+}
+
+
+.operador {
+    background: #ff9500;
+    color: #fff;
+}
+
+
+.igual {
+    background: #28a745;
+    color: #fff;
+    grid-column: span 2;
+}
+
+
+.limpar {
+    background: #dc3545;
+    color: #fff;
+}
+.emoji {
+    background: deeppink;
+    color: #fff;
+}
